@@ -1,0 +1,14 @@
+{
+  "id": "jira",
+  "name": "Jira",
+  "version": "1.0.0",
+  "minAppVersion": "1.1.0",
+  "entry": "index.html",
+  "icon": "icon.svg",
+  "panel": { "title": "Jira" },
+  "permissions": {
+    "http": ["https://*.atlassian.net"],
+    "open": ["https://id.atlassian.com"],
+    "secrets": true
+  }
+}
